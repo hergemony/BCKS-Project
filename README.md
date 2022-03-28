@@ -16,7 +16,7 @@ Simon: github
 
 **SUMMARY**
 
-- A cover page featuring BCKS Logo and Volume no.
+- A cover page featuring BCKS Logo
 
 
 
@@ -29,17 +29,17 @@ Simon: github
 
 **Javascript Features**
 - Api calls for
-1) Sights
-2) Events
-3) Lodging
-4) Dining
+1) Currency
+2) Current See
+3) Fun Facts
+
 
 
 **Github Repository Features**
 - HTML Pages (Index.html - 
 - CSS Pages (Styles.css)
 - Javascript Pages * Contains: * Variables, including arrays, event listeners, for each loop, local storage
-- Images of screenshots to show an example of the BCKS Global Guru Travel Guide web application
+- Images of screenshots to show an example of the
 
 
 *Thank you for exploring the world through our wonderful app!*
