@@ -8,7 +8,7 @@
 *'We Bring you the latest, the greatest, info from around the globe!'*
 
 **Our Mission**
-Our aim is to develop a tool to help people gather valuable information regarding various topics such as Travel. This edition features an API call to calculate the cost of living whilst travelling in global cities, as well as a currency conversion tool.
+Our aim is to develop a tool to help people gather valuable information regarding various topics such as travel, news, cats and dogs.
 
 **Summary**
 This was created as part of the UWA Coding Bootcamp Project 1 using HTML, CSS and Javascript. There was an emphasis on the use of API's (Application Programming Interface).
@@ -16,8 +16,11 @@ This was created as part of the UWA Coding Bootcamp Project 1 using HTML, CSS an
 With contributions from the following collaborators:
 
 Bambang: https://github.com/B-smd
+
 Chi: https://github.com/hergemony
+
 Kieran: https://github.com/kieranmichaelflynn
+
 Simon: https://github.com/lev8947
 
 
