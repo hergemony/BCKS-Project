@@ -1,23 +1,21 @@
 # BCKS-Project
 
-**WELCOME  TO THE BCKS GLOBAL GURUS TRAVEL GUIDES 🚕🍸**
+**WELCOME TO BCKS 🚕🍸🚒🖕**
 
-*Explore the Globe like a Guru!*
+*BRAINY COURAGEOUS KNOWLEDGEABLE SUPERINDIVIDUALS*
+'We Bring you the latest, the greatest, info from around the globe!'
 
-This was created as part of the UWA Coding Bootcamp Project 1 using HTML, CSS and Javascript. There is an emphasis on the use of API's (Application Programming Interface) - both Third Party and Server Side API's.
+This was created as part of the UWA Coding Bootcamp Project 1 using HTML, CSS and Javascript. There is an emphasis on the use of API's (Application Programming Interface).
+
+**Our Mission**
+Our aim is to develop a tool to help people gather valuable information regarding various topics such as Travel. This edition features an API call to calculate the cost of living whilst travelling in global cities, as well as a currency conversion tool.
 
 With contributions from the following collaborators:
 
-Bambang: github link
-Chi: github
-Kieran: github
-Simon: github
-
-
-**SUMMARY**
-
-- A cover page featuring BCKS Logo
-
+Bambang: https://github.com/B-smd
+Chi: https://github.com/hergemony
+Kieran: https://github.com/kieranmichaelflynn
+Simon: https://github.com/lev8947
 
 
 **SCREENSHOTS**
@@ -28,21 +26,22 @@ Simon: github
 
 
 **Javascript Features**
-- Api calls for
-1) Currency
-2) Current See
-3) Fun Facts
+- Api calls for:
+1) COST OF LIVING WHILE TRAVELLING
+2) CURRENCY CONVERSION
+3) RANDOM CATS AND DOGS
+
 
 
 
 **Github Repository Features**
-- HTML Pages (Index.html - 
-- CSS Pages (Styles.css)
-- Javascript Pages * Contains: * Variables, including arrays, event listeners, for each loop, local storage
-- Images of screenshots to show an example of the
+- HTML Pages (Index.html and api2results.html)
+- CSS Pages (Styles.css and reset.css)
+- Javascript Pages (menu.js and api2results.js) Contains: * Variables, including arrays, event listeners, for each loop, local storage
+- Screenshot of BCKS dashboard and API calls/results.
 
 
-*Thank you for exploring the world through our wonderful app!*
+*Thank you for using our app!*
 
 Github Profile Link => https://github.com/
 
