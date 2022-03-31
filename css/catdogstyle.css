@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .result {
@@ -9,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin: 10px;
     height: 400px;
     width: 300px;
@@ -53,5 +55,7 @@ button:focus {
     font-size: 40px;
     align-items: center;
     justify-content: center;
-    
+    text-align: center;
+    padding-top: 40px;
+
 }
