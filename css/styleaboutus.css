@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* Simplify width and height calculation */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-image: url("./../images/aboutus.JPG");
+}
+#wrapper {
+	text-justify: display ;
+}
+	
+
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2.5em;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+div {
+	text-align: center;
+	width: 33.33%;
+	padding: 5px;  
+}
+
+img { 
+	border: none;
+	border-radius: 4px;
+	
+	
+}
+
+img:hover {
+	box-shadow: 0 0 2px 1px rgba(0,140, 186, 05);
+	border-radius: 50%;
+	
+}
