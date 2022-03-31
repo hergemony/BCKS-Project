@@ -2,10 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Travel to USA: Liberty Cruise</title>
+
+<!-- Insert title -->
+<title>BCKS</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/base.css" rel="stylesheet" type="text/css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,41 +20,141 @@
 <body>
 <div id="wrapper">
   <header>
-    <h1>Travel to USA</h1>
-    <nav>
-      <h2 id="menulink"><a href="#navlinks">Menu</a></h2>
-      <ul class="displayed" id="navlinks">
-        <li><a href="index.html" class="thispage">Home</a></li>
-        <li><a href="sights.html">Sights</a></li>
-        <li><a href="#">Dining</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Lodging </a></li>
-      </ul>
-    </nav>
+        <!-- Insert logo/title -->
+        <figure><img src="images/bckstitle.JPG" class="logo">
+          <figcaption class="name"> We bring you the latest, the greatest, info from around the globe! </figcaption>
+        </figure>
+
+
   </header>
-  <div id="hero"> <img src="images/ny.JPG" alt="The Golder Gate Bridge">
-    <p>Travel to the United States during Covid-19: What you need to know before you go</p>
+
+  <!-- CREATE CONTAINER FOR SEARCH BAR -->
+  <!-- Follow wireframe for structure -->
+
+
+<!-- currency-converter -->
+  <!-- CREATE CONTAINER FOR CURRENCY RESULTS -->
+  <div class="container">
+    <h1>Currency Convertor</h1>
+    <div class="box">
+        <div class="left_box">
+            <select name="currency" class="currency"></select>
+            <input type="number" name="" id="num">
+        </div>
+        <div class="right_box">
+            <select name="currency" class="currency"></select>
+            <input type="text" name="" id="ans" disabled>
+        </div>
+    </div>
+    <button class="btn" id="btn">Convert</button>
+
+  <!-- CREATE CONTAINER FOR API#1 CURRENCY RESULTS -->
+
+
+  <!-- CREATE CONTAINER FOR API#2 COST OF LIVING RESULTS -->
+  <div class="flex-row align-center justify-center min-100-vh bg-primary">
+    <div class="col-12 col-md-9 flex-column align-center bg-light p-5">
+      <h1 class="text-primary">Cost of Living While You Travel</h1>
+      <form id="search-form" class="form w-100">
+        <input id="search-input-city" class="form-input w-100" type="text" placeholder="City">
+        <input id="search-input-country" class="form-input w-100" type="text" placeholder="Country">
+        
+        <button class="btn btn-info btn-block">Click Me</button>
+      </form>
+    </div>
   </div>
-  <main>
-    <h2>Unforgettable of Liberty Cruise</h2>
-    <p>No visit to New York is complete without take The Statue of Liberty Tour. Unforgettable Statue of Liberty Experience with two options Liberty Cruise Select and Liberty Cruise Saver <a href="http://www.libertycruise.nyc/">Liberty Cruise</a>, and Brooklyn Bridge, Manhattan Skyline and more.</p>
-    <p>The Satue of Liberty was dedicated on October 28, 1886. It was designated as a National Monument in 1924. Employees of the National Park Service have been caring for the colossal copper statue since 1933. Visitor can climb the stairs through the statue's pedestral with balcony access. Reservations are limited due to safety standards.</p>
-    <figure><img src="images/liberty.jpg" class="grayscale">
-      <figcaption>STATUE of LIBERTY Enlightening the World</figcaption>
-    </figure>
-    <p>The Statue of Liberty was a gift of friendship from the people of France to the United States and is recognized as a universal symbol of freedom and democracy.</p>
-  </main>
-  <aside>
-    <h2>COVID-19 Information</h2>
-    <p>All airline passengers to the United States ages two years and older. regardless of vaccination status or citizenship, must provide a negative COVID-19 viral test taken within one calendar day of travel.<a href="http://au.usembassy.gov/covid-19-information/">covid-19-information</a>. Alternatively, travelers to the United States may provide documentation from a licensed health care provider of having recovered from COVID-19 in the 90 days preceding travel.Check the CDC website for <a href="http://www.cdc.gov/">additional information and frequently asked questions</a>. All non-immigrant, non-US. citizen air travelers to the 
-      United States are required to be fully vaccinated and need to provide prove of vaccination status prior to boarding an airplane to the United States.</p>
-    <p>Exception will be considered on an extremly limited basis. Please contact your nearest embassy or consulate to apply for an exception. Please visit the CDC webpages for more information about <a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/testing-international-air-travelers.html#general">exceptions and the requirement for proof of negative COVID-19 test
-      or recovery from COVID-19 for all air passengers arriving in the United States.</p>
-  </aside>
-  <footer>
-    <p>Your safety is number one priority</p>
-  </footer>
-  <script type="text/javascript" src="js/menu.js"></script> 
+
+<div class="col-12 col-md-9 p-3 text-light">
+  <h2>Showing results for cost of living in your selected city: <span id="result-text"></span></h2>
+  <div id="result-content"></div>
+
+</div> 
+  <a href="./index.html" class="btn btn-block btn-danger">&larr; Go back.</a>
 </div>
+
+
+</div>
+
+
+
+</div>
+
+<!-- CREATE CONTAINER FOR CURRENT SEE (NEWS) API -->
+
+<!-- https://inshortsapi.vercel.app/news?category={category_name}-->
+<div>
+  <p class="catdogapi"> BREAKING NEWS 🗺️ 📰</p>
+  <link href="css/catdogstyle.css" rel="stylesheet" type="text/css">
+
+  <div class="results">
+      <div id="world_result"
+      class="result">
+      <p> World News Placeholder</p>
+      </div>
+      <div id="entertainment_result"
+      class="result">
+  <p> Entertainment News Placeholder</p>
+</div>
+  </div>
+
+<!-- currency-converter -->
+   
+      <figcaption></figcaption>
+    </figure>
+  
+  </main>
+ 
+
+  <div class="buttons">
+      <button id="world_btn"> HOT in WORLD news!</button>
+  <button id="entertainment_btn"> HOT in ENTERTAINMENT news!</button>
+  </div>
+  </div>
+
+
+  <script type="text/javascript" src="news.js"></script>
+</div>
+
+
+
+
+<!-- CREATE CONTAINER FOR API#3 CATS & DOG-->
+
+<div>
+  <p class="catdogapi">IT'S RAINING CATS & DOGS 🐈🐕</p>
+  <link href="css/catdogstyle.css" rel="stylesheet" type="text/css">
+
+  <div class="results">
+      <div id="cat_result"
+      class="result">
+      <p>Random Cat Placeholder</p>
+      </div>
+      <div id="dog_result"
+      class="result">
+  <p>Random Dog Placeholder</p>
+</div>
+  </div>
+
+  <div class="buttons">
+      <button id="cat_btn">I Like Cats 😺</button>
+  <button id="dog_btn">I Like Dogs 🐶</button>
+  </div>
+  </div>
+
+
+  <script type="text/javascript" src="catdogscript.js"></script>
+</div>
+
+ 
+
+
+  <script src="./js/menu.js"></script>
 </body>
+
+  <!-- INSERT COMPANY FOOTER -->
+  <footer>
+    <p class="team">MEET THE TEAM</p>
+    <p class="slogan"> 🧙‍♂️🧙‍♂️ Super-coura-knowledgistic-brainy-alla-do-cious! 🧙‍♂️🧙 </p>
+    <p> ©️ 2022 🌐 BCKS, Inc. </p>
+  </footer>
 </html>

@@ -54,60 +54,8 @@ a:hover, a:active, a:focus {
 	color: #7F3300;
 	text-decoration: underline;
 }
-#menulink {
-	background-color: #1E1E1E;
-	margin: 0;
-	text-align: center;
-}
-#menulink a {
-	color: white;
-	font-size: 0.7em;
-	text-transform: uppercase;
-	/* [disabled]display: block;
-*/
-	font-weight: 200;
-	text-decoration: none;
-	padding-top: 0.1em;
-	padding-bottom: 0.1em;
-	font-family: source-sans-pro;
-	font-style: normal;
-}
-#navlinks {
-	width: 100%;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-	background-color: #000000;
-	background-color: rgba(0,0,0,0.65);
-	position: absolute;
-	-webkit-transition: all ease-out 0.5s;
-	transition: all ease-out 0.5s;
-}
-#navlinks.displayed {
-	top: 135px;
-	z-index: 1;
-	opacity: 1;
-}
-#navlinks.start {
-	display: none;
-}
-#navlinks.collapsed {
-	top: -12em;
-	opacity: 0;
-}
-#navlinks a {
-	display: block;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color: rgb(209, 175, 175);
-	font-weight: 400;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-#navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
-	color: #F68979;
-}
+
+
 main, aside {
 	margin-left: 4%;
 	margin-right: 4%;
@@ -131,7 +79,7 @@ main, aside {
 	font-style: normal;
 }
 figure {
-	width: 400px;
+	width: 500px;
 	max-width: 92%;
 	display: block;
 	margin-left: auto;
@@ -145,8 +93,10 @@ figure img {
 figcaption {
 	display: block;
 	margin-top: 0.5em;
-	font-size: 0.75em;
+	font-size: 0.90em;
 	text-transform: uppercase;
+	text-align: center;
+	justify-content: center;
 }
 .grayscale {
 	-webkit-filter: grayscale(100%);
@@ -166,25 +116,7 @@ footer {
 }
 
 @media (min-width: 700px) {
-#menulink {
-	display: none;
-}
-#navlinks {
-	max-width: 1000px;
-	position: static;
-	background-color: transparent;
-}
-#navlinks.collapsed {
-	opacity: 1;
-}
-#navlinks a {
-	width: 20%;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-bottom: 20px;
-	float: left;
-	color: #1E1E1E;
-}
+
 header {
     overflow: hidden;
 	font-weight: 700;
@@ -234,4 +166,23 @@ footer {
 }
 
 }
+
+.slogan {
+	font-size: larger;
+	font-style: italic;
+	
 }
+
+.name{
+	font-size: 12px;
+	font-weight: 900;
+}
+
+
+.catdogapi {
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	color: #1E1E1E;
+
+	
