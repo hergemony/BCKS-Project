@@ -13,7 +13,7 @@ function getRandomWorld() {
     fetch('https://inshortsapi.vercel.app/news?category=world')
     .then(res => res.json())
     .then(data => {
-        world_result.innerHTML = `<img src="${data.file}"/>`
+        world_result.innerHTML = `<img src="${data.data[0].imageUrl}"/>`
     })
 
 }
@@ -22,11 +22,6 @@ function getRandomEntertainment() {
     fetch('https://inshortsapi.vercel.app/news?category=entertainment')
     .then(res => res.json())
     .then(data => {
-        if(data.url.includes('.mp4')) {
-            getRandomEntertainment()
-        } else  {
-        entertainment_result.innerHTML = `<img src="${data.url}"/>`
-    }
-
-})
+        entertainment_result.innerHTML = `<img src="${data.data[0].imageUrl}"/>`
+    })
 }
