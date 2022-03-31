@@ -79,7 +79,7 @@ main, aside {
 	font-style: normal;
 }
 figure {
-	width: 400px;
+	width: 500px;
 	max-width: 92%;
 	display: block;
 	margin-left: auto;
@@ -93,7 +93,7 @@ figure img {
 figcaption {
 	display: block;
 	margin-top: 0.5em;
-	font-size: 0.60em;
+	font-size: 0.90em;
 	text-transform: uppercase;
 	text-align: center;
 	justify-content: center;
@@ -116,25 +116,7 @@ footer {
 }
 
 @media (min-width: 700px) {
-#menulink {
-	display: none;
-}
-#navlinks {
-	max-width: 1000px;
-	position: static;
-	background-color: transparent;
-}
-#navlinks.collapsed {
-	opacity: 1;
-}
-#navlinks a {
-	width: 20%;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-bottom: 20px;
-	float: left;
-	color: #1E1E1E;
-}
+
 header {
     overflow: hidden;
 	font-weight: 700;
@@ -185,6 +167,22 @@ footer {
 }
 
 .slogan {
-	background-color:ce5f12;
+	font-size: larger;
+	font-style: italic;
+	
+}
+
+.name{
+	font-size: 12px;
+	font-weight: 900;
+}
+
+
+.catdogapi {
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	color: #1E1E1E;
+
 	
 }

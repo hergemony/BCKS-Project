@@ -32,6 +32,7 @@
   <!-- Follow wireframe for structure -->
 
 
+<!-- currency-converter -->
   <!-- CREATE CONTAINER FOR CURRENCY RESULTS -->
   <div class="container">
     <h1>Currency Convertor</h1>
@@ -46,19 +47,57 @@
         </div>
     </div>
     <button class="btn" id="btn">Convert</button>
+
+  <!-- CREATE CONTAINER FOR API#1 CURRENCY RESULTS -->
+
+
+  <!-- CREATE CONTAINER FOR API#2 COST OF LIVING RESULTS -->
+  <div class="flex-row align-center justify-center min-100-vh bg-primary">
+    <div class="col-12 col-md-9 flex-column align-center bg-light p-5">
+      <h1 class="text-primary">Cost of Living While You Travel</h1>
+      <form id="search-form" class="form w-100">
+        <input id="search-input-city" class="form-input w-100" type="text" placeholder="City">
+        <input id="search-input-country" class="form-input w-100" type="text" placeholder="Country">
+        
+        <button class="btn btn-info btn-block">Click Me</button>
+      </form>
+    </div>
+  </div>
+
+<div class="col-12 col-md-9 p-3 text-light">
+  <h2>Showing results for cost of living in your selected city: <span id="result-text"></span></h2>
+  <div id="result-content"></div>
+
+</div> 
+  <a href="./index.html" class="btn btn-block btn-danger">&larr; Go back.</a>
 </div>
 
 
-  <!-- CREATE CONTAINER FOR CURRENT SEE RESULTS -->
+</div>
 
 
-  <!-- CREATE CONTAINER FOR FUN FACTS -->
 
-  
+</div>
 
+<!-- CREATE CONTAINER FOR CURRENT SEE (NEWS) API -->
+
+<!-- https://inshortsapi.vercel.app/news?category={category_name}-->
+<div>
+  <p class="catdogapi"> BREAKING NEWS 🐈🐕</p>
+  <link href="css/catdogstyle.css" rel="stylesheet" type="text/css">
+
+  <div class="results">
+      <div id="cat_result"
+      class="result">
+      <p> World News Placeholder</p>
+      </div>
+      <div id="dog_result"
+      class="result">
+  <p> Entertainment News Placeholder</p>
+</div>
   </div>
-  <main>
 
+<!-- currency-converter -->
    
       <figcaption></figcaption>
     </figure>
@@ -66,7 +105,47 @@
   </main>
  
 
+  <div class="buttons">
+      <button id="cat_btn">Click Me</button>
+  <button id="dog_btn">Click Me</button>
+  </div>
+  </div>
 
+
+  <script type="text/javascript" src="catdogscript.js"></script>
+</div>
+
+
+
+
+<!-- CREATE CONTAINER FOR API#3 CATS & DOG-->
+
+<div>
+  <p class="catdogapi">IT'S RAINING CATS & DOGS 🐈🐕</p>
+  <link href="css/catdogstyle.css" rel="stylesheet" type="text/css">
+
+  <div class="results">
+      <div id="cat_result"
+      class="result">
+      <p>Random Cat Placeholder</p>
+      </div>
+      <div id="dog_result"
+      class="result">
+  <p>Random Dog Placeholder</p>
+</div>
+  </div>
+
+  <div class="buttons">
+      <button id="cat_btn">I Like Cats 😺</button>
+  <button id="dog_btn">I Like Dogs 🐶</button>
+  </div>
+  </div>
+
+
+  <script type="text/javascript" src="catdogscript.js"></script>
+</div>
+
+ 
 
 
   <script src="./js/menu.js"></script>
