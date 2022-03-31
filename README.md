@@ -2,13 +2,16 @@
 
 **WELCOME TO BCKS 🚕🍸🚒🖕**
 
-*BRAINY COURAGEOUS KNOWLEDGEABLE SUPERINDIVIDUALS*
-'We Bring you the latest, the greatest, info from around the globe!'
+**BRAINY COURAGEOUS KNOWLEDGEABLE SUPERINDIVIDUALS**
 
-This was created as part of the UWA Coding Bootcamp Project 1 using HTML, CSS and Javascript. There is an emphasis on the use of API's (Application Programming Interface).
+
+*'We Bring you the latest, the greatest, info from around the globe!'*
 
 **Our Mission**
 Our aim is to develop a tool to help people gather valuable information regarding various topics such as Travel. This edition features an API call to calculate the cost of living whilst travelling in global cities, as well as a currency conversion tool.
+
+**Summary**
+This was created as part of the UWA Coding Bootcamp Project 1 using HTML, CSS and Javascript. There was an emphasis on the use of API's (Application Programming Interface).
 
 With contributions from the following collaborators:
 
@@ -32,12 +35,10 @@ Simon: https://github.com/lev8947
 3) RANDOM CATS AND DOGS
 
 
-
-
 **Github Repository Features**
 - HTML Pages (Index.html and api2results.html)
 - CSS Pages (Styles.css and reset.css)
-- Javascript Pages (menu.js and api2results.js) Contains: * Variables, including arrays, event listeners, for each loop, local storage
+- Javascript Pages (menu.js and api2results.js) Contains: * Variables, arrays, event listeners
 - Screenshot of BCKS dashboard and API calls/results.
 
 
@@ -45,7 +46,7 @@ Simon: https://github.com/lev8947
 
 Github Profile Link => https://github.com/
 
-Deployed Application Link => https://
+Deployed Application Link => https://kieranmichaelflynn.github.io/BCKS-Project/
 
 
 ©️ 2022 🌐 BCKS, Inc. 
