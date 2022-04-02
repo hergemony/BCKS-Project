@@ -1,4 +1,3 @@
-
 const world_result = document.getElementById('world_result');
 const entertainment_result = document.getElementById('entertainment_result');
 const world_btn = document.getElementById('world_btn');
