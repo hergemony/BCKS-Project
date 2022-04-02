@@ -35,22 +35,26 @@ Simon: https://github.com/lev8947
 - Api calls for:
 1) COST OF LIVING WHILE TRAVELLING
 2) CURRENCY CONVERSION
-3) RANDOM CATS AND DOGS
+3) BREAKING NEWS IMAGE GENERATOR
+3) RANDOM CATS AND DOGS IMAGE GENERATOR - to cheer you up! 😃
 
 
 **Github Repository Features**
-- HTML Pages (Index.html and api2results.html)
-- CSS Pages (Styles.css and reset.css)
-- Javascript Pages (menu.js and api2results.js) Contains: * Variables, arrays, event listeners
+- HTML Pages (index.html and aboutus.html)
+- CSS Pages (Styles.css, reset.css, base.css)
+- Javascript Pages (menu.js, news.js, catdogscript.js) Contains: * Variables, arrays, event listeners
 - Screenshot of BCKS dashboard and API calls/results.
 
 
 *Thank you for using our app!*
 
-Github Profile Link => https://github.com/
+Github Profile Link => https://github.com/kieranmichaelflynn/BCKS-Project
 
 Deployed Application Link => https://kieranmichaelflynn.github.io/BCKS-Project/
 
 
 ©️ 2022 🌐 BCKS, Inc. 
+
+
+
 

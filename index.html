@@ -20,7 +20,7 @@
 </head>
 
 <body>
-  <div id="wrapper">
+  
     <header>
       <!-- Insert logo/title -->
       <figure><img src="images/bckstitle.JPG" class="logo">
@@ -32,7 +32,7 @@
 
     <!-- CREATE CONTAINER FOR SEARCH BAR -->
     <!-- Follow wireframe for structure -->
-
+<div class="wrapper">
 
     <!-- currency-converter -->
     <!-- CREATE CONTAINER FOR CURRENCY RESULTS -->
@@ -49,11 +49,16 @@
         </div>
       </div>
       <button class="btn" id="btn">Convert</button>
-
+    </div>
       <!-- CREATE CONTAINER FOR API#1 CURRENCY RESULTS -->
 
-
+<div class="container-fluid"
       <!-- CREATE CONTAINER FOR API#2 COST OF LIVING RESULTS -->
+            <!-- Insert image to suit cost of living globally theme  -->
+            <figure><img src="images/traveltablesmap.jpg" class="map">
+              <figcaption class="figure1"> Figure 1: World Average Cost of Living & Prices Map 
+                (source: traveltables.com) </figcaption>
+            </figure>
       <div class="flex-row align-center justify-center min-100-vh bg-primary">
         <div class="col-12 col-md-9 flex-column align-center bg-light p-5">
           <h1 class="text-primary">Cost of Living While You Travel</h1>
@@ -81,11 +86,12 @@
 
   </div>
 
+
   <!-- CREATE CONTAINER FOR CURRENT SEE (NEWS) API -->
 
   <!-- https://inshortsapi.vercel.app/news?category={category_name}-->
   <div>
-    <p class="catdogapi"> BREAKING NEWS 🗺️ 📰</p>
+    <p class="catdogapi"> CURRENT SEE 🗺️ 📰</p>
     <link href="css/catdogstyle.css" rel="stylesheet" type="text/css">
 
     <div class="results">
@@ -97,12 +103,6 @@
       </div>
     </div>
 
-    <!-- currency-converter -->
-
-    <figcaption></figcaption>
-    </figure>
-
-    </main>
 
 
     <div class="buttons">
