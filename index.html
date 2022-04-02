@@ -1,162 +1,162 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Insert title -->
-<title>BCKS</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/base.css" rel="stylesheet" type="text/css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="css/base.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+  <!-- Insert title -->
+  <title>BCKS</title>
 </head>
 
 <body>
-<div id="wrapper">
-  <header>
-        <!-- Insert logo/title -->
-        <figure><img src="images/bckstitle.JPG" class="logo">
-          <figcaption class="name"> We bring you the latest, the greatest, info from around the globe! </figcaption>
-        </figure>
+  <div id="wrapper">
+    <header>
+      <!-- Insert logo/title -->
+      <figure><img src="images/bckstitle.JPG" class="logo">
+        <figcaption class="name"> We bring you the latest, the greatest, info from around the globe! </figcaption>
+      </figure>
 
 
-  </header>
+    </header>
 
-  <!-- CREATE CONTAINER FOR SEARCH BAR -->
-  <!-- Follow wireframe for structure -->
+    <!-- CREATE CONTAINER FOR SEARCH BAR -->
+    <!-- Follow wireframe for structure -->
 
 
-<!-- currency-converter -->
-  <!-- CREATE CONTAINER FOR CURRENCY RESULTS -->
-  <div class="container">
-    <h1>Currency Convertor</h1>
-    <div class="box">
+    <!-- currency-converter -->
+    <!-- CREATE CONTAINER FOR CURRENCY RESULTS -->
+    <div class="container">
+      <h1>Currency Convertor</h1>
+      <div class="box">
         <div class="left_box">
-            <select name="currency" class="currency"></select>
-            <input type="number" name="" id="num">
+          <select name="currency" class="currency"></select>
+          <input type="number" name="" id="num">
         </div>
         <div class="right_box">
-            <select name="currency" class="currency"></select>
-            <input type="text" name="" id="ans" disabled>
+          <select name="currency" class="currency"></select>
+          <input type="text" name="" id="ans" disabled>
         </div>
-    </div>
-    <button class="btn" id="btn">Convert</button>
-
-  <!-- CREATE CONTAINER FOR API#1 CURRENCY RESULTS -->
-
-
-  <!-- CREATE CONTAINER FOR API#2 COST OF LIVING RESULTS -->
-  <div class="flex-row align-center justify-center min-100-vh bg-primary">
-    <div class="col-12 col-md-9 flex-column align-center bg-light p-5">
-      <h1 class="text-primary">Cost of Living While You Travel</h1>
-      <form id="search-form" class="form w-100">
-        <input id="search-input-city" class="form-input w-100" type="text" placeholder="City">
-        <input id="search-input-country" class="form-input w-100" type="text" placeholder="Country">
-        
-        <button class="btn btn-info btn-block">Click Me</button>
-      </form>
-    </div>
-  </div>
-
-<div class="col-12 col-md-9 p-3 text-light">
-  <h2>Showing results for cost of living in your selected city: <span id="result-text"></span></h2>
-  <div id="result-content"></div>
-
-</div> 
-  <a href="./index.html" class="btn btn-block btn-danger">&larr; Go back.</a>
-</div>
-
-
-</div>
-
-
-
-</div>
-
-<!-- CREATE CONTAINER FOR CURRENT SEE (NEWS) API -->
-
-<!-- https://inshortsapi.vercel.app/news?category={category_name}-->
-<div>
-  <p class="catdogapi"> BREAKING NEWS 🗺️ 📰</p>
-  <link href="css/catdogstyle.css" rel="stylesheet" type="text/css">
-
-  <div class="results">
-      <div id="world_result"
-      class="result">
-      <p> World News Placeholder</p>
       </div>
-      <div id="entertainment_result"
-      class="result">
-  <p> Entertainment News Placeholder</p>
-</div>
+      <button class="btn" id="btn">Convert</button>
+
+      <!-- CREATE CONTAINER FOR API#1 CURRENCY RESULTS -->
+
+
+      <!-- CREATE CONTAINER FOR API#2 COST OF LIVING RESULTS -->
+      <div class="flex-row align-center justify-center min-100-vh bg-primary">
+        <div class="col-12 col-md-9 flex-column align-center bg-light p-5">
+          <h1 class="text-primary">Cost of Living While You Travel</h1>
+          <form id="search-form" class="form w-100">
+            <input id="search-input-city" class="form-input w-100" type="text" placeholder="City">
+            <input id="search-input-country" class="form-input w-100" type="text" placeholder="Country">
+
+            <button class="btn btn-info btn-block">Click Me</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-9 p-3 text-light">
+        <h2>Showing results for cost of living in your selected city: <span id="result-text"></span></h2>
+        <div id="result-content"></div>
+
+      </div>
+      <a href="./index.html" class="btn btn-block btn-danger">&larr; Go back.</a>
+    </div>
+
+
   </div>
 
-<!-- currency-converter -->
-   
-      <figcaption></figcaption>
+
+
+  </div>
+
+  <!-- CREATE CONTAINER FOR CURRENT SEE (NEWS) API -->
+
+  <!-- https://inshortsapi.vercel.app/news?category={category_name}-->
+  <div>
+    <p class="catdogapi"> BREAKING NEWS 🗺️ 📰</p>
+    <link href="css/catdogstyle.css" rel="stylesheet" type="text/css">
+
+    <div class="results">
+      <div id="world_result" class="result">
+        <p> World News Placeholder</p>
+      </div>
+      <div id="entertainment_result" class="result">
+        <p> Entertainment News Placeholder</p>
+      </div>
+    </div>
+
+    <!-- currency-converter -->
+
+    <figcaption></figcaption>
     </figure>
-  
-  </main>
- 
 
-  <div class="buttons">
+    </main>
+
+
+    <div class="buttons">
       <button id="world_btn"> HOT in WORLD news!</button>
-  <button id="entertainment_btn"> HOT in ENTERTAINMENT news!</button>
+      <button id="entertainment_btn"> HOT in ENTERTAINMENT news!</button>
+    </div>
   </div>
+
+
   </div>
 
 
-  <script type="text/javascript" src="news.js"></script>
-</div>
 
 
+  <!-- CREATE CONTAINER FOR API#3 CATS & DOG-->
 
+  <div>
+    <p class="catdogapi">IT'S RAINING CATS & DOGS 🐈🐕</p>
+    <link href="css/catdogstyle.css" rel="stylesheet" type="text/css">
 
-<!-- CREATE CONTAINER FOR API#3 CATS & DOG-->
-
-<div>
-  <p class="catdogapi">IT'S RAINING CATS & DOGS 🐈🐕</p>
-  <link href="css/catdogstyle.css" rel="stylesheet" type="text/css">
-
-  <div class="results">
-      <div id="cat_result"
-      class="result">
-      <p>Random Cat Placeholder</p>
+    <div class="results">
+      <div id="cat_result" class="result">
+        <p>Random Cat Placeholder</p>
       </div>
-      <div id="dog_result"
-      class="result">
-  <p>Random Dog Placeholder</p>
-</div>
-  </div>
+      <div id="dog_result" class="result">
+        <p>Random Dog Placeholder</p>
+      </div>
+    </div>
 
-  <div class="buttons">
+    <div class="buttons">
       <button id="cat_btn">I Like Cats 😺</button>
-  <button id="dog_btn">I Like Dogs 🐶</button>
+      <button id="dog_btn">I Like Dogs 🐶</button>
+    </div>
   </div>
+
+
   </div>
-
-
-  <script type="text/javascript" src="catdogscript.js"></script>
-</div>
-
- 
-
-
-  <script src="./js/menu.js"></script>
-</body>
 
   <!-- INSERT COMPANY FOOTER -->
   <footer>
-    
-      <a href="./aboutus.html"><p class="team">MEET THE TEAM</p></a>
-    
+
+    <a href="./aboutus.html">
+      <p class="team">MEET THE TEAM</p>
+    </a>
+
     <p class="slogan"> 🧙‍♂️🧙‍♂️ Super-coura-knowledgistic-brainy-alla-do-cious! 🧙‍♂️🧙 </p>
     <p> ©️ 2022 🌐 BCKS, Inc. </p>
   </footer>
+
+
+
+  <script type="text/javascript" src="./js/news.js"></script>
+  <script type="text/javascript" src="./js/catdogscript.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
