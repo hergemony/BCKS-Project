@@ -6,7 +6,8 @@
 }
 
 .result {
-    background-color: aquamarine;
+    flex-direction: column;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +20,7 @@
 
 .result img {
     object-fit: cover;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
