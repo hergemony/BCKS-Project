@@ -25,8 +25,11 @@ Simon: https://github.com/lev8947
 
 
 **SCREENSHOTS**
-1) 
-![alt text](https://github.com/?raw=true)
+<img src="./images/ss1.0.png">
+<img src="./images/ss2.0.png">
+<img src="./images/ss4.0.png">
+<img src="./images/ss3.0.png">
+<img src="./images/meetteam.png">
 
 
 
@@ -54,7 +57,3 @@ Deployed Application Link => https://kieranmichaelflynn.github.io/BCKS-Project/
 
 
 ©️ 2022 🌐 BCKS, Inc. 
-
-
-
-

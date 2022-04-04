@@ -6,7 +6,7 @@
 }
 
 .result {
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.849);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,9 +53,11 @@ button:focus {
 
 .catdogapi {
     font-size: 40px;
+    font-weight: 600;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding-top: 40px;
+    color: white;
 
 }

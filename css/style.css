@@ -7,6 +7,7 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
 body {
 	margin: 0;
 	color: #4B4B4B;
@@ -14,24 +15,27 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1em;
-	background-color: #EFF5F8;
+	background-image: url(../images/annie.jpg);
+	background-size: cover;
+	background-color: aquamarine;
 	align-items: center;
 	justify-content: center;
 }
+
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
 	max-width: 1000px;
-	background-color: rgb(255, 254, 254);
+	background-color: #bae2f69a;
 	justify-content: center;
 	align-items: center;
 }
+
 .container {
 	align-items: center;
 	justify-content: center;
-
-
 }
+
 .container-fluid {
 	justify-content: center;
 	align-items: center;
@@ -49,21 +53,26 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 }
+
 h2 {
 	color: #1E1E1E;
 	margin-top: 0.5em;
 	font-size: 2.25em;
 }
+
 a {
 	font-weight: bold;
 	text-decoration: none;
 }
+
 a:link {
 	color: #F68979;
 }
+
 a:visited {
 	color: #FF944C;
 }
+
 a:hover, a:active, a:focus {
 	color: #7F3300;
 	text-decoration: underline;
@@ -73,10 +82,12 @@ main, aside {
 	margin-left: 4%;
 	margin-right: 4%;
 }
+
 #hero img {
 	max-width: 100%;
 	display: block;
 }
+
 #hero p {
 	color: #804c43;
 	font-weight: 600;
@@ -91,6 +102,7 @@ main, aside {
 	font-family: source-sans-pro;
 	font-style: normal;
 }
+
 figure {
 	width: 500px;
 	max-width: 92%;
@@ -102,9 +114,11 @@ figure {
 	align-items: center;
 	justify-content: center;
 }
+
 figure img {
 	max-width: 100%;
 }
+
 figcaption {
 	display: block;
 	margin-top: 0.5em;
@@ -113,14 +127,17 @@ figcaption {
 	text-align: center;
 	justify-content: center;
 }
+
 .grayscale {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
+
 .grayscale:hover {
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%);
 }
+
 footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -136,6 +153,7 @@ header {
     overflow: hidden;
 	font-weight: 700;
 }
+
 #hero p {
 	width: 36%;
 	padding-left: 25px;
@@ -147,28 +165,32 @@ header {
 	border-style: solid;
 	top: 90px;
 	right: 33px;
-
 }
+
 #hero {
 	position: relative;
 	align-items: center;
 	justify-content: center;
 }
+
 main {
 	width: 60%;
 	align-items: center;
 	justify-content: center;
 }
+
 aside {
 	width: 28%;
 	margin-left: 0px;
 }
+
 main, aside {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	float: left;
 	font-size: 0.875em;
 }
+
 footer {
 	clear: left;
 }
@@ -180,6 +202,7 @@ footer {
 	margin-right: 0px;
 	margin-left: 10px;
 }
+
 .floatleft {
 	float: left;
 	margin-right: 10px;
@@ -190,14 +213,12 @@ footer {
 .slogan {
 	font-size: larger;
 	font-style: italic;
-	
 }
 
 .name{
 	font-size: 12px;
 	font-weight: 900;
 }
-
 
 .catdogapi {
 	align-items: center;
@@ -214,5 +235,4 @@ footer {
 
 .figure1 {
 max-block-size: 100%;
-
-}
+}}
