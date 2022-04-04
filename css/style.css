@@ -34,6 +34,11 @@ body {
 .container {
 	align-items: center;
 	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+
+
 }
 
 .container-fluid {
@@ -62,15 +67,15 @@ h2 {
 
 a {
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration:underline;
 }
 
 a:link {
-	color: #F68979;
+	color:#2e735c;
 }
 
 a:visited {
-	color: #FF944C;
+	color:#2e735c;
 }
 
 a:hover, a:active, a:focus {
@@ -104,7 +109,7 @@ main, aside {
 }
 
 figure {
-	width: 500px;
+	width: 800px;
 	max-width: 92%;
 	display: block;
 	margin-left: auto;
@@ -148,7 +153,7 @@ footer {
 }
 
 @media (min-width: 700px) {
-
+}
 header {
     overflow: hidden;
 	font-weight: 700;
@@ -235,4 +240,5 @@ footer {
 
 .figure1 {
 max-block-size: 100%;
-}}
+
+}
