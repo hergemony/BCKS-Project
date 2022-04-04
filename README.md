@@ -25,8 +25,16 @@ Simon: https://github.com/lev8947
 
 
 **SCREENSHOTS**
+
+<img src="./images/ss1.0.png">
+<img src="./images/ss2.0.png">
+<img src="./images/ss4.0.png">
+<img src="./images/ss3.0.png">
+<img src="./images/meetteam.png">
+
 1) A tool labelled 'Currency Convertor' is the first tool enabling users to select one type of currency and convert it to another.
 ![alt text](https://github.com/kieranmichaelflynn/BCKS-Project/blob/main/images/Screen%20Shot%202022-04-04%20at%203.55.58%20pm.png?raw=true)
+
 
 2) Cost of living while travelling is displayed when user selects a desired destination (city and country). API call response should display a list of approx. 60 common goods and services for the destination, with 'item name' and 'average price' data points displayed.
 ![alt text] (https://github.com/kieranmichaelflynn/BCKS-Project/blob/main/images/Screen%20Shot%202022-04-02%20at%2010.01.00%20pm.png?raw=true)
@@ -61,7 +69,3 @@ Deployed Application Link => https://kieranmichaelflynn.github.io/BCKS-Project/
 
 
 ©️ 2022 🌐 BCKS, Inc. 
-
-
-
-

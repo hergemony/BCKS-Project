@@ -8,6 +8,7 @@
   
   .container{
     margin-top: 50px;
+    margin-left: 320px;
     background-color: #CE5F12;
     padding: 10px 24px;
     border-radius: 20px;
@@ -22,8 +23,6 @@
     font-size: 50px;
     margin-bottom: 0.5em;
     font-family: 'Times New Roman', Times, serif;
-    animation:flicker 1.5s infinite alternate;
-  
   }
   
    .text-primary {
@@ -59,7 +58,6 @@
     justify-content: center;
   }
   
-  
   input{
     width: 95%;
     height: 40px;
@@ -67,11 +65,10 @@
     margin: 0.2em 0;
     border-radius: 10px;
     border: none;
-    background: white;
+    background: rgb(114, 112, 112);
     outline: none;
     padding: 0 1em;
   }
-  
   
   .btn{
     width: 98%;
